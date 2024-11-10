@@ -16,16 +16,14 @@ export default {
 				textOnPrimary: '#FFFFFF',
 				border: '#E0E0E0'
 			},
-			font: {
-				family: {
-					body: ['Roboto', 'sans-serif']
-				},
-				sizes: {
-					small: '0.875rem',
-					medium: '1rem',
-					large: '1.25rem',
-					xlarge: '1.5rem'
-				}
+			fontFamily: {
+				body: ['Roboto', 'sans-serif']
+			},
+			fontSize: {
+				small: '0.875rem',
+				medium: '1rem',
+				large: '1.25rem',
+				xlarge: '1.5rem'
 			}
 		}
 	},
