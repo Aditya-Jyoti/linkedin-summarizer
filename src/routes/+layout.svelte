@@ -2,6 +2,7 @@
 	import '../app.css';
 
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	let { children } = $props();
 </script>
@@ -12,4 +13,6 @@
 	<section class="flex flex-grow flex-col">
 		{@render children()}
 	</section>
+
+	<Footer />
 </main>
