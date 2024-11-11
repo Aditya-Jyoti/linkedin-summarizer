@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<nav class="flex items-center justify-between px-4 py-2 shadow-md">
+<nav class="hidden items-center justify-between px-4 py-2 shadow-md lg:flex">
 	<div class="flex flex-1 items-center gap-2">
 		<img src="/logo.png" alt="logo" class="aspect-square w-10" />
 		<span class="text-lg font-black uppercase">linkedin summarizer</span>
