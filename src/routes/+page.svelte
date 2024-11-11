@@ -2,7 +2,7 @@
 
 <main class="flex flex-col">
 	<!-- splash section -->
-	<section class="flex flex-col items-center justify-center gap-4 bg-border/25 p-2 py-12">
+	<section class="flex flex-col items-center justify-center gap-4 bg-border/25 p-2 py-16">
 		<!-- splash text -->
 		<div class="flex flex-col items-center justify-center">
 			<span class="text-center text-4xl font-medium tracking-wide">
@@ -30,7 +30,7 @@
 
 	<!-- mock dashboard -->
 	<section
-		class="mx-auto my-12 w-[75%] rounded-xl border-[1px] border-border bg-border/15 p-4 shadow-xl transition-shadow duration-300 hover:shadow-2xl"
+		class="mx-auto my-24 w-[75%] rounded-xl border-[1px] border-border bg-border/15 p-4 shadow-xl transition-shadow duration-300 hover:shadow-2xl"
 	>
 		<div class="flex w-full items-center justify-between border-b-[1px] border-border p-2">
 			<span class="text-lg font-medium">Dashboard</span>
@@ -82,12 +82,12 @@
 	</section>
 
 	<!-- about section -->
-	<section id="about" class="mx-auto flex w-[80%] items-center justify-between py-24">
+	<section id="about" class="mx-auto flex w-[80%] items-center justify-between pb-24">
 		<!-- about text -->
 		<section class="flex flex-col gap-4">
 			<span class="text-4xl font-bold tracking-wide">About Us</span>
 
-			<div class="flex flex-col gap-2" >
+			<div class="flex flex-col gap-2">
 				<span>
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error consectetur modi unde
 					cupiditate placeat earum, recusandae nesciunt tempora, itaque, iure dignissimos cumque
@@ -110,14 +110,98 @@
 				</span>
 			</div>
 
-			<div class="text-xl" >
-				So why not give us a <button class="text-primary tracking-wide font-bold rounded-xl hover:underline" >try?</button>
+			<div class="text-xl">
+				So why not give us a <button
+					class="rounded-xl font-bold tracking-wide text-primary hover:underline">try?</button
+				>
 			</div>
 		</section>
 
 		<!-- about image -->
 		<div class="flex flex-col items-center gap-4">
 			<img src="/about/about.png" alt="about" />
+		</div>
+	</section>
+
+	<!-- pricing section -->
+	<section id="pricing" class="flex flex-col items-center justify-center gap-16 pb-24">
+		<span class="text-4xl font-bold tracking-wide">Pricing</span>
+
+		<!-- pricing tiers -->
+		<div class="flex w-[60%] justify-around">
+			<div
+				class="bg-primaryCompliment/10 hover:bg-primaryCompliment/15 flex w-[20rem] flex-col items-center gap-1 rounded-2xl p-4 shadow-2xl transition-all duration-300 hover:-translate-y-2"
+			>
+				<span class="text-3xl font-medium">Single</span>
+				<span class="text-center text-sm"
+					>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+				</span>
+
+				<div class="flex w-full flex-col justify-start gap-1 text-lg">
+					<span>feature 1</span>
+					<span>feature 2</span>
+					<span>feature 3</span>
+					<span>feature 4</span>
+					<span>feature 5</span>
+					<span>feature 6</span>
+				</div>
+
+				<span class="flex w-full justify-end text-3xl font-bold">10$</span>
+
+				<button
+					class="bg-primaryCompliment hover:bg-primaryCompliment/75 my-4 w-full rounded-xl py-2 font-bold text-textOnPrimary transition-all duration-300"
+					>check out</button
+				>
+			</div>
+
+			<div
+				class="flex w-[20rem] -translate-y-8 flex-col items-center gap-1 rounded-2xl bg-primary/10 p-4 shadow-2xl transition-all duration-300 hover:-translate-y-10 hover:bg-primary/15"
+			>
+				<span class="text-3xl font-medium">Monthly</span>
+				<span class="text-center text-sm"
+					>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+				</span>
+
+				<div class="flex w-full flex-col justify-start gap-1 text-lg">
+					<span>feature 1</span>
+					<span>feature 2</span>
+					<span>feature 3</span>
+					<span>feature 4</span>
+					<span>feature 5</span>
+					<span>feature 6</span>
+				</div>
+
+				<span class="flex w-full justify-end text-3xl font-bold">25$</span>
+
+				<button
+					class="my-4 w-full rounded-xl bg-secondary py-2 font-bold text-textOnPrimary transition-all duration-300 hover:bg-secondary/75"
+					>check out</button
+				>
+			</div>
+			<div
+				class="bg-primaryCompliment/10 hover:bg-primaryCompliment/15 flex w-[20rem] flex-col items-center gap-1 rounded-2xl p-4 shadow-2xl transition-all duration-300 hover:-translate-y-2"
+			>
+				<span class="text-3xl font-medium">Yearly</span>
+				<span class="text-center text-sm"
+					>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+				</span>
+
+				<div class="flex w-full flex-col justify-start gap-1 text-lg">
+					<span>feature 1</span>
+					<span>feature 2</span>
+					<span>feature 3</span>
+					<span>feature 4</span>
+					<span>feature 5</span>
+					<span>feature 6</span>
+				</div>
+
+				<span class="flex w-full justify-end text-3xl font-bold">100$</span>
+
+				<button
+					class="bg-primaryCompliment hover:bg-primaryCompliment/75 my-4 w-full rounded-xl py-2 font-bold text-textOnPrimary transition-all duration-300"
+					>check out</button
+				>
+			</div>
 		</div>
 	</section>
 </main>
