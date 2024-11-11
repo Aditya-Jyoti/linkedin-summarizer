@@ -119,7 +119,7 @@
 
 		<!-- about image -->
 		<div class="flex flex-col items-center gap-4">
-			<img src="/about/about.png" alt="about" />
+			<img src="/about/about-noarrow.png" alt="about" />
 		</div>
 	</section>
 
@@ -201,6 +201,42 @@
 					class="bg-primaryCompliment hover:bg-primaryCompliment/75 my-4 w-full rounded-xl py-2 font-bold text-textOnPrimary transition-all duration-300"
 					>check out</button
 				>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact section -->
+	<section id="contact" class="mx-auto flex w-[80%] items-center justify-between gap-16 pb-24">
+		<div class="w-[50%]">
+			<img src="/contact.svg" alt="" />
+		</div>
+		<div class="flex w-[80%] flex-col gap-12 rounded-xl p-12">
+			<span class="flex w-full justify-end text-4xl font-bold tracking-wide">Contact us</span>
+
+			<div class="flex flex-col gap-2">
+				<div class="flex flex-col gap-1">
+					<span class="translate-x-1 text-sm font-medium">name</span>
+					<input
+						type="text"
+						class="rounded-lg border-2 border-border px-4 py-1"
+						placeholder="enter your name..."
+					/>
+				</div>
+				<div class="flex flex-col gap-1">
+					<span class="translate-x-1 text-sm font-medium">email</span>
+					<input
+						type="email"
+						class="rounded-lg border-2 border-border px-4 py-1"
+						placeholder="enter your email..."
+					/>
+				</div>
+				<div class="flex flex-col gap-1">
+					<span class="translate-x-1 text-sm font-medium">query</span>
+					<textarea
+						class="rounded-lg border-2 border-border p-1 px-4"
+						placeholder="enter your query..."
+					></textarea>
+				</div>
 			</div>
 		</div>
 	</section>
