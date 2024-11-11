@@ -30,7 +30,7 @@
 
 	<!-- mock dashboard -->
 	<section
-		class="mx-auto lg:my-24 my-8  lg:w-[75%] w-[80%] rounded-xl border-[1px] border-border bg-border/15 p-4 shadow-xl transition-shadow duration-300 hover:shadow-2xl lg:block"
+		class="mx-auto my-8 w-[80%] rounded-xl border-[1px] border-border bg-border/15 p-4 shadow-xl transition-shadow duration-300 hover:shadow-2xl lg:my-24 lg:block lg:w-[75%]"
 	>
 		<div class="flex w-full items-center justify-between border-b-[1px] border-border p-2">
 			<span class="text-lg font-medium">Dashboard</span>
@@ -42,7 +42,7 @@
 
 		<div class="flex flex-col gap-4 p-4">
 			<!-- dashboard row 1 -->
-			<div class="flex lg:flex-row flex-col gap-4">
+			<div class="flex flex-col gap-4 lg:flex-row">
 				<div
 					class="flex flex-col rounded-xl border-[1px] border-border bg-background p-2 transition-shadow duration-300 hover:shadow-md"
 				>
@@ -64,7 +64,7 @@
 			</div>
 
 			<!-- dashboard row 2 -->
-			<div class="lg:flex hidden gap-4">
+			<div class="hidden gap-4 lg:flex">
 				<div
 					class="flex flex-col rounded-xl border-[1px] border-border bg-background p-2 transition-shadow duration-300 hover:shadow-md"
 				>
@@ -84,7 +84,7 @@
 	<!-- about section -->
 	<section
 		id="about"
-		class="mx-auto flex w-[90%] flex-col lg:gap-0 gap-8 items-center justify-between pb-16 lg:w-[80%] lg:flex-row lg:pb-24"
+		class="mx-auto flex w-[90%] flex-col items-center justify-between gap-8 pb-16 lg:w-[80%] lg:flex-row lg:gap-0 lg:pb-24"
 	>
 		<!-- about text -->
 		<section class="flex flex-col gap-4">
@@ -124,7 +124,9 @@
 		</section>
 
 		<!-- about image -->
-		<img src="/about/about-noarrow.png" alt="about" />
+		<div class="flex flex-col items-center gap-4">
+			<img src="/about/about-noarrow.png" alt="about" />
+		</div>
 	</section>
 
 	<!-- pricing section -->
@@ -132,7 +134,7 @@
 		<span class="text-3xl font-bold tracking-wide lg:text-4xl">Pricing</span>
 
 		<!-- pricing tiers -->
-		<div class="flex flex-col items-center justify-around gap-12 lg:w-[60%] lg:flex-row lg:gap-0">
+		<div class="flex flex-col items-center justify-around gap-12 lg:gap-0 lg:w-[75%] lg:flex-row">
 			<div
 				class="bg-primaryCompliment/10 hover:bg-primaryCompliment/15 flex w-[90%] flex-col items-center gap-1 rounded-2xl p-4 shadow-xl transition-all duration-300 hover:-translate-y-2 lg:w-[20rem] lg:shadow-2xl"
 			>
